@@ -1,0 +1,9 @@
+
+.header {
+   display: grid;
+   align-self: middle;
+   vertical-align: middle;
+}
+h1{
+    text-align: center;
+}
