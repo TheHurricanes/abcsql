@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AuthGuard } from './services/authguard.service';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 const appRoutes:Routes = [
@@ -38,6 +39,7 @@ export function tokenGetter() {
     HomeComponent,
     ProfileComponent,
     DashboardComponent,
+    FooterComponent,
   ],
 
   imports: [
