@@ -21,4 +21,3 @@ export class Lesson1Component implements OnInit {
         }
     }
 }
-
