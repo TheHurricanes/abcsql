@@ -20,30 +20,5 @@ export class Lesson1Component implements OnInit {
           myTag.classList.add('getBigger');
         }
       }
-      // markTable('answer');
-
   }
 }
-
-const markTable = dataKey => {
-  const key = document.getElementById(dataKey);
-
-
-}
-
-  // key.classList.add('getBigger');
-  // key.classList.add('getBigger');
-}
-
-// markTable(dataKey: string): void {
-//     key: string = document.getElementById(dataKey);
-//     // key.classList.add('getBigger');
-//     // key.classList.add('getBigger');
-// }
-
-// unmarkTable(dataKey: string): void {
-//     key: string = document.getElementById(dataKey);
-//
-//     // key.classList.add('getSmaller');
-//     // this.renderer.setElementClass('getSamller');
-// }
