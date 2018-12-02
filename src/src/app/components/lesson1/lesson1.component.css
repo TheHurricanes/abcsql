@@ -8,12 +8,6 @@
 
 .getBigger {
     transform: scale(1.1);
-    border-color: red;
-    box-shadow: 0 0 1rem red;
-}
-
-.getSmaller {
-    transform: scale(0);
-    border-color: green;
-    box-shadow: 0 0 1rem red;
+    background-color: #FBAB7E;
+    box-shadow: 0 0 1rem #FBAB7E;
 }
