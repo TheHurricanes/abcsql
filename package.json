@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "start": "cd src/ && serve dist/ --single",
+    "build": "cd src/ && ng build --prod",
   },
   "dependencies": {
     "bcryptjs": "*",
