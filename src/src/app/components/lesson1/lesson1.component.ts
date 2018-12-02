@@ -20,5 +20,12 @@ export class Lesson1Component implements OnInit {
           myTag.classList.add('getBigger');
         }
       }
+      // markTable('answer');
+
   }
+}
+
+const markTable = dataKey => {
+  const key = document.getElementById(dataKey);
+
 }
