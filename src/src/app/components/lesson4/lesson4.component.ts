@@ -13,7 +13,7 @@ export class Lesson4Component implements OnInit{
     ngOnInit() {}
     sqlChange() {
         let myTag = document.querySelector(".aviato");
-        if(this.query === 'UPDATE uhack.sponsors set `company` = REPLACE(`company`, \'Aviato\', \'Incubator\');') {
+        if(this.query === "UPDATE uhack.sponsors SET `company` = REPLACE(`company`, 'aviato', 'incubator');") {
             if(!myTag.classList.contains('replace')) {
                 myTag.classList.add('replace');
             }
