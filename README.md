@@ -1,7 +1,7 @@
 <div align="center" id="top">
 	<br>
 	<br>
-	<img width="500" src="https://thehurricanes.github.io/abcsql/src/src/assets/logo.svg">
+	<img width="500" src="https://thehurricanes.github.io/abcsql/src/assets/logo.svg">
 	<br>
 	<br>
 	<br>
@@ -123,7 +123,7 @@ MIT © [The Hurricanes](https://github.com/thehurricanes)
 
 <div align="center">
 	<a href="https://github.com/thehurricanes/abcsql">
-		<img src="src/src/assets/logo.svg" width="100px">
+		<img src="https://thehurricanes.github.io/abcsql/src/assets/logo.svg" width="100px">
 	</a>
   <br>
 </div>
