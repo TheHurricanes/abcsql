@@ -24,11 +24,58 @@
 
 </div>
 
-## Description
+## See
+
+- [Inspiration](#inspiration)
+- [What it does?](#what-it-does)
+- [How we built it?](#how-we-built-it)
+- [Diagram](#diagram)
+- [Usage](#usage)
+- [Team](#team)
+- [License](#license)
+
+## Inspiration
+
+SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is an important skill that every developer should have, and it should be easy to learn 😀.
+
+![screenshot](images/screenshot.png)
+
+## What it does?
+
+**ABCsql** is a simple buggy game (web application) that will help you build your skills on SQL. You will need to create an account and start completing the multiple challenges.
+
+![screenshot](images/lesson.png)
+
 
 ## Diagram
 
-<img src="src/src/assets/diagram.svg">
+You want to understand how our project looks like? Check this...
+
+<p align="center">
+	<br>
+	<img width="500" src="images/diagram.svg">
+	<br>
+</p>
+
+# How we built it?
+
+...
+
+## Usage
+
+Set up the environment from the root directory.
+
+```
+$ npm install && cd src/ && npm install
+```
+
+This project is build on Angular, so it spect it to have [`@angular/cli`](https://npmjs.org/@angular/cli) installed, then run:
+
+```
+$ ng serve
+```
+
+The application will be served at http://localhost:4200
 
 ## Team
 
