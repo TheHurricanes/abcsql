@@ -16,6 +16,10 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { AuthGuard } from './services/authguard.service';
 import { FooterComponent } from './components/footer/footer.component';
+import { Lesson1Component } from './components/lesson1/lesson1.component';
+import { Lesson2Component } from './components/lesson2/lesson2.component';
+import { Lesson3Component } from './components/lesson3/lesson3.component';
+import { Lesson4Component } from './components/lesson4/lesson4.component';
 
 
 const appRoutes:Routes = [
@@ -24,6 +28,12 @@ const appRoutes:Routes = [
   { path:'register', component:RegisterComponent },
   { path:'profile', component:ProfileComponent , canActivate : [AuthGuard]},
   { path:'dashboard', component:DashboardComponent , canActivate : [AuthGuard] },
+  { path:'lesson-1', component:Lesson1Component , canActivate : [AuthGuard] },
+  { path:'lesson-2', component:Lesson2Component , canActivate : [AuthGuard] },
+  { path:'lesson-3', component:Lesson3Component , canActivate : [AuthGuard] },
+  { path:'lesson-4', component:Lesson4Component , canActivate : [AuthGuard] },
+
+
 ];
 
 export function tokenGetter() {
@@ -40,6 +50,10 @@ export function tokenGetter() {
     ProfileComponent,
     DashboardComponent,
     FooterComponent,
+    Lesson1Component,
+    Lesson2Component,
+    Lesson3Component,
+    Lesson4Component,
   ],
 
   imports: [
