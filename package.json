@@ -21,6 +21,6 @@
     "passport": "*",
     "passport-jwt": "*"
   },
-  "author": "Gurudatt Shanbhag",
-  "license": "ISC"
+  "author": "ABCSQL",
+  "license": "MIT"
 }

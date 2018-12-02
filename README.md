@@ -1,17 +1,12 @@
 <div align="center" id="top">
 	<br>
 	<br>
-	<br>
-	<br>
-	<img width="500" src="Frontend-Angular/src/assets/logo.svg">
-	<br>
-	<br>
+	<img width="500" src="src/src/assets/logo.svg">
 	<br>
 	<br>
 	<br>
 	<br>
 
-<br>
 <p align="center">
   <i>You should know SQL, so we made it easier for you</i>
 </p>
@@ -29,7 +24,11 @@
 
 </div>
 
+## Description
 
+## Diagram
+
+<img src="src/src/assets/diagram.svg">
 
 ## Team
 
@@ -50,7 +49,7 @@ MIT © The Hurricanes
 
 <div align="center">
 	<a href="https://github.com/thehurricanes/abcsql">
-		<img src="Frontend-Angular/src/assets/logo.svg" width="50px">
+		<img src="src/src/assets/logo.svg" width="50px">
 	</a>
   <br>
 </div>

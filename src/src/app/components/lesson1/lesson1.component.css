@@ -1,0 +1,19 @@
+.abc-col{margin-top: 50px;}
+#abc-table{padding: 20px;}
+.section {
+    background: #f7f7f9;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.getBigger {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 1rem red;
+}
+
+.getSmaller {
+    transform: scale(0);
+    border-color: green;
+    box-shadow: 0 0 1rem red;
+}
