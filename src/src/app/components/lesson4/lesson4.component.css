@@ -31,3 +31,10 @@
     background-color: #4CAF50;
     color: white;
 }
+
+.replace span{visibility: hidden;
+    position: relative;}
+.replace span:after{visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;content: 'Incubator';}

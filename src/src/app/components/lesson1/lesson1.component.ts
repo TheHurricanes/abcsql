@@ -14,7 +14,7 @@ export class Lesson1Component implements OnInit {
 
     sqlChanges(events) {
         let myTag = this.el.nativeElement.querySelector("img");
-        if(this.query === 'SELECT * FROM Uhack;') {
+        if(this.query === 'SELECT * FROM uhack;') {
             if(!myTag.classList.contains('getBigger')) {
                 myTag.classList.add('getBigger');
             }
