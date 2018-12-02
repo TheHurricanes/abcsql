@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="116px" viewBox="0 0 395 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>abcsql</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-25.9%" y="-66.6%" width="151.9%" height="233.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="abcsql" transform="translate(0.000000, -58.000000)">
+            <g id="sql" transform="translate(312.000000, 80.000000)">
+                <polygon id="Path" points="0 92 0 0 88 0 88 92"></polygon>
+                <g id="Group" transform="translate(10.266667, 14.603175)">
+                    <path d="M33.5507645,74.2808219 C15.9736956,74.2808219 1.28905569,68.0427731 1.28905569,60.4184913 L1.28905569,1.50358613 L65.8124733,1.50358613 L65.8124733,60.4184913 C65.8124733,68.0427731 51.1278334,74.2808219 33.5507645,74.2808219 Z" id="Path" fill="#FFB77D"></path>
+                    <path d="M64.7000006,2.65878034 L64.7000006,60.4184913 C64.7000006,66.4255012 51.7953171,73.1256277 33.5507645,73.1256277 C15.3062119,73.1256277 2.40152841,66.4255012 2.40152841,60.4184913 L2.40152841,2.65878034 L64.7000006,2.65878034 Z M66.924946,0.348391907 L0.176582971,0.348391907 C0.176582971,3.35189688 0.176582971,57.4149863 0.176582971,60.4184913 C0.176582971,68.7358896 15.0837174,75.4360161 33.5507645,75.4360161 C52.0178116,75.4360161 66.924946,68.7358896 66.924946,60.4184913 C66.924946,57.4149863 66.924946,3.35189688 66.924946,0.348391907 Z" id="Shape" fill="#BB6C2D" fill-rule="nonzero"></path>
+                </g>
+                <g id="Group" filter="url(#filter-1)" transform="translate(10.266667, 1.460317)">
+                    <path d="M33.5507645,24.6737108 C14.1937392,24.6737108 1.28905569,18.5916132 1.28905569,12.9773693 C1.28905569,7.36312544 14.1937392,1.28102787 33.5507645,1.28102787 C52.9077898,1.28102787 65.8124733,7.36312544 65.8124733,12.9773693 C65.8124733,18.5916132 52.9077898,24.6737108 33.5507645,24.6737108 Z" id="Path" fill="#FFB77D"></path>
+                    <path d="M33.5507645,2.45066202 C52.9077898,2.45066202 64.7000006,8.53275958 64.7000006,12.9773693 C64.7000006,17.4219791 52.9077898,23.5040767 33.5507645,23.5040767 C14.1937392,23.5040767 2.40152841,17.4219791 2.40152841,12.9773693 C2.40152841,8.53275958 14.1937392,2.45066202 33.5507645,2.45066202 Z M33.5507645,0.111393728 C15.0837174,0.111393728 0.176582971,5.95956446 0.176582971,12.9773693 C0.176582971,19.9951742 15.0837174,25.8433449 33.5507645,25.8433449 C52.0178116,25.8433449 66.924946,19.9951742 66.924946,12.9773693 C66.924946,5.95956446 52.0178116,0.111393728 33.5507645,0.111393728 Z" id="Shape" fill="#BB6C2D" fill-rule="nonzero"></path>
+                </g>
+                <path d="M43.2666667,48.1904762 C24.7866667,48.1904762 10.2666667,42.2988506 10.2666667,35.047619 L12.4666667,35.047619 C12.4666667,40.2594417 24.7866667,45.9244663 43.2666667,45.9244663 C61.7466667,45.9244663 74.0666667,40.2594417 74.0666667,35.047619 L76.2666667,35.047619 C76.2666667,42.2988506 61.7466667,48.1904762 43.2666667,48.1904762 Z" id="Path" fill="#BB6C2D"></path>
+                <path d="M43.2666667,70.0952381 C24.7866667,70.0952381 10.2666667,63.0084034 10.2666667,54.031746 L12.4666667,54.031746 C12.4666667,61.3548086 26.5466667,67.7329599 43.2666667,67.7329599 C59.9866667,67.7329599 74.0666667,61.5910364 74.0666667,54.031746 L76.2666667,54.031746 C76.2666667,63.0084034 61.7466667,70.0952381 43.2666667,70.0952381 Z" id="Path" fill="#BB6C2D"></path>
+            </g>
+            <text id="B" stroke="#BB6C2D" stroke-width="1.45985401" font-family="ChalkboardSE-Bold, Chalkboard SE" font-size="145.985401" font-weight="bold" fill="#FFB77D">
+                <tspan x="109.268964" y="165">B</tspan>
+            </text>
+            <text id="A" stroke="#BB6C2D" stroke-width="1.45985401" font-family="ChalkboardSE-Bold, Chalkboard SE" font-size="145.985401" font-weight="bold" fill="#FFB77D">
+                <tspan x="0.284429568" y="165">A</tspan>
+            </text>
+            <text id="C" stroke="#BB6C2D" stroke-width="1.45985401" font-family="ChalkboardSE-Bold, Chalkboard SE" font-size="145.985401" font-weight="bold" fill="#FFB77D">
+                <tspan x="204.05914" y="165">C</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
