@@ -48,7 +48,7 @@ SQL is a domain-specific language used in programming and designed for managing 
 
 **ABCsql** is a simple buggy game (web application) that will help you build your skills on SQL. You will need to create an account and start completing the multiple challenges.
 
-![screenshot](https://thehurricanes.github.io/abcsql/images/lesson.png)
+![screenshot](https://thehurricanes.github.io/abcsql/images/1.png)
 
 
 ## Diagram
@@ -69,11 +69,15 @@ We wished that we could develop more challenges/levels for our application in ou
 
  The frontend part is built with Angular 6, the backend is developed using Nodejs to store the user data we have used Mongodb.
 
+![screenshot](https://thehurricanes.github.io/abcsql/images/2.png)
+
 ## Challenges we ran into?
 
 We had problems trying to figure out how to manipulate Agular components since  most of us did not use Angular for a long time and others and others were totally new to :( Angular.
 
 We needed to go through a lot of docs and stackoverflow!
+
+![screenshot](https://thehurricanes.github.io/abcsql/images/4.png)
 
 ## Accomplishments that we're proud of
 
