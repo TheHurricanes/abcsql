@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "abcsql",
+    "builds": [
+      {
+        "src": "nodejs/*.js",
+        "use": "@now/node"
+      }
+    ]
+}
