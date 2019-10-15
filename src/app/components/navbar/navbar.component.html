@@ -1,27 +1,37 @@
 <nav class="navbar navbar-expand-md">
   <a class="navbar-brand" href="/">ABCSQL</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navabar" aria-controls="navbarsExampleDefault"
+  <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navabar" aria-controls="navbarsExampleDefault"
     aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navabar">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <li class="nav-item" [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
       </li>
     </ul>
 
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item" *ngIf="getTokenStatus()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
-            <a class="nav-link" [routerLink]="['/dashboard']">Dashboard</a>
-        </li>
-        <li *ngIf="getTokenStatus()" class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
-            <a class="nav-link" [routerLink]="['/profile']">Profile</a>
-        </li>
-      <li class="nav-item" *ngIf="!getTokenStatus()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <li class="nav-item" *ngIf="getTokenStatus()"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/dashboard']">Dashboard</a>
+      </li>
+      <li *ngIf="getTokenStatus()" class="nav-item"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a class="nav-link" [routerLink]="['/profile']">Profile</a>
+      </li>
+      <li class="nav-item" *ngIf="!getTokenStatus()"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
         <a class="nav-link" [routerLink]="['/login']">Login</a>
       </li>
-      <li class="nav-item" *ngIf="!getTokenStatus()" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+      <li class="nav-item" *ngIf="!getTokenStatus()"
+        [routerLinkActive]="['active']"
+        [routerLinkActiveOptions]="{exact:true}">
         <a class="nav-link" [routerLink]="['/register']">Signup</a>
       </li>
       <li *ngIf="getTokenStatus()" class="nav-item">

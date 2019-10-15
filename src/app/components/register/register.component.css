@@ -1,27 +1,27 @@
 form {
-    display: grid;
-    align-self: center;
-    vertical-align: middle;
+  display: grid;
+  align-self: center;
+  vertical-align: middle;
 }
 h1 {
-    text-align: center;
-    margin-top: 1rem;
-    color: #000;
+  text-align: center;
+  margin-top: 1rem;
+  color: #000;
 }
 label {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .form-group {
-    width: 50%;
-    margin: 10px auto;
+  width: 50%;
+  margin: 10px auto;
 }
 
 button {
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-    width: 50%;
-    margin: 25px auto;
-    font-weight: bold;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  width: 50%;
+  margin: 25px auto;
+  font-weight: bold;
 }
