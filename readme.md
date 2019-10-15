@@ -1,7 +1,7 @@
 <div align="center" id="top">
 	<br>
 	<br>
-	<img width="500" src="https://thehurricanes.github.io/abcsql/src/assets/logo.svg">
+	<img width="500" src="src/assets/logo.svg">
 	<br>
 	<br>
 	<br>
@@ -45,13 +45,13 @@
 
 SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. It is an important skill that every developer should have, and it should be easy to learn 😀.
 
-![screenshot](https://thehurricanes.github.io/abcsql/images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## What it does?
 
 **ABCsql** is a simple buggy game (web application) that will help you build your skills on SQL. You will need to create an account and start completing the multiple challenges.
 
-![screenshot](https://thehurricanes.github.io/abcsql/images/1.png)
+![screenshot](./images/1.png)
 
 
 ## Diagram
@@ -60,7 +60,7 @@ You want to understand how our project looks like? Check this...
 
 <p align="center">
 	<br>
-	<img width="500" src="https://thehurricanes.github.io/abcsql/images/diagram.svg">
+	<img width="500" src="./images/diagram.svg">
 	<br>
 </p>
 
@@ -72,7 +72,7 @@ We wished that we could develop more challenges/levels for our application in ou
 
  The frontend part is built with Angular 6, the backend is developed using Nodejs to store the user data we have used Mongodb.
 
-![screenshot](https://thehurricanes.github.io/abcsql/images/2.png)
+![screenshot](./images/2.png)
 
 ## Challenges we ran into?
 
@@ -80,7 +80,7 @@ We had problems trying to figure out how to manipulate Agular components since  
 
 We needed to go through a lot of docs and stackoverflow!
 
-![screenshot](https://thehurricanes.github.io/abcsql/images/4.png)
+![screenshot](./images/4.png)
 
 ## Accomplishments that we're proud of
 
@@ -130,7 +130,7 @@ MIT © [The Hurricanes](https://github.com/thehurricanes)
 
 <div align="center">
 	<a href="https://github.com/thehurricanes/abcsql">
-		<img src="https://thehurricanes.github.io/abcsql/src/assets/logo.svg" width="100px">
+		<img src="src/assets/logo.svg" width="100px">
 	</a>
   <br>
 </div>
