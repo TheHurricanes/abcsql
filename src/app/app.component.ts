@@ -6,6 +6,5 @@ import { NgFlashMessageService } from 'ng-flash-messages';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Mean Stack!';
-}
+
+export class AppComponent { title = 'Mean Stack!' }

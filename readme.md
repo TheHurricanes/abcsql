@@ -13,13 +13,16 @@
 <br>
 
 <a href="https://UHack.miami/">
-	<img src="https://cdn.abranhe.com/projects/UHack/2018/badge.svg" alt="UHack 2018">
+	<img src="https://hackathon.badge.pw/uhack/2018" alt="UHack 2018">
 </a>
 <a href="https://github.com/thehurricanes/abcsql">
 	<img src="https://img.shields.io/github/contributors/thehurricanes/abcsql.svg" alt="UHack 2018">
 </a>
 <a href="https://github.com/thehurricanes/abcsql">
 	<img src="https://img.shields.io/github/languages/top/thehurricanes/abcsql.svg" alt="UHack 2018">
+</a>
+<a href="https://github.com/thehurricanes/abcsql">
+	<img src="https://img.shields.io/badge/Build%20with-Angular-critical?logo=angular">
 </a>
 
 </div>

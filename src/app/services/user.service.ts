@@ -4,20 +4,20 @@ import { Router } from '@angular/router';
 import { map } from 'rxjs/operators';
 import { environment } from '../../environments/environment';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({ providedIn: 'root' })
+
 export class UserService {
   authToken: any;
   user: any;
-
 
   constructor(private http: Http, private route: Router) { }
 
   registerService(user) {
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    return this.http.post(environment.url + '/users/register', user, { headers: headers })
+    return this.http.post(environment.url + '/users/signup', user, {
+      headers: headers
+    })
       .pipe(map(res => res.json()));
   }
 
@@ -25,7 +25,9 @@ export class UserService {
   loginService(credentials) {
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    return this.http.post(environment.url + '/users/authenticate', credentials, { headers: headers })
+    return this.http.post(environment.url + '/users/authenticate', credentials, {
+      headers: headers
+    })
       .pipe(map(res => res.json()));
   }
 
@@ -40,7 +42,7 @@ export class UserService {
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
     this.loadToken();
-    headers.append('Authorization', this.authToken);
+    headers.append('Authorization', `Bearer ${this.authToken}`);
     return this.http.get(environment.url + '/users/profile', { headers: headers })
       .pipe(map(res => res.json()));
   }
@@ -56,7 +58,4 @@ export class UserService {
     this.user = null;
     localStorage.clear();
   }
-
-
-
 }
